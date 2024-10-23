@@ -14,7 +14,7 @@ Script takes two command line arguments [1] "Station A" and [2] "Station B"
 **Input**
 
 
-`python -m tube_route_planner.py "Paddington" "Charing Cross"`
+`python -m tube_route_planner "Paddington" "Charing Cross"`
 
 Then it will output what `line` to take, towards the `next_stop` to the `final_stop` on the line with how many `stops`, follow by the `transfer` if it exits on the next line.
 
